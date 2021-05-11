@@ -1,12 +1,31 @@
+/*Custom CSS do Titulo do Grupo-C e Div que engloba a table*/
+
 #divGrupoC{
     width: 60%;
     border: 2px solid greenyellow;
+}
+
+#tituloGrupoC{
+    margin-bottom: 0px;
+    color: grey;
+    font-size:15px;
+}
+
+/*Fim das estilizações da Div e do titulo do Grupo-C*/
+
+/*Custom CSS da tabela do Grupo-C*/
+
+#tableGrupoC{
+    background-color: black;
+    opacity: 65%;
+    width: 100%;
 }
 
 td{
     border-collapse: collapse;
     border-bottom:1px solid #e2e2e2;
 }
+
 .tdPosicaoGrupoC{
     float: left;
     font-size: 25px;
@@ -15,12 +34,14 @@ td{
     border-bottom: 1px solid #e2e2e2;
     padding-left: 8px;
 }
+
 .tdImgTime{
     width: 5%;
     float: left;
     padding-top:4px;
     border-bottom: 1px solid #e2e2e2;
 }
+
 .imgTime{
     float: left;
     max-width: 25px;
@@ -44,14 +65,5 @@ td{
     text-align: right;
     padding-right:8px;
 }
-#tableGrupoC{
-    background-color: black;
-    opacity: 65%;
-    width: 100%;
-}
 
-#tituloGrupoC{
-    margin-bottom: 0px;
-    color: grey;
-    font-size:15px;
-}
+/*Fim das estlizações da table do Grupo-C*/
