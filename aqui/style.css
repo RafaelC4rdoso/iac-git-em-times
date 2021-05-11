@@ -1,0 +1,61 @@
+* {  
+    margin: 0 auto;
+}
+body{
+    width: 60%;
+}
+
+table, td{
+    border-bottom: solid 1px white;
+    border-collapse: collapse;
+    color: white;
+    padding: 10px;
+    margin: 6px;
+}
+
+.tabelaGrupoA{
+    background-color: rgb(32, 32, 32);
+    border: solid green;
+    font-size: 10px;
+}
+
+.tabelaGrupoA table tr { 
+    width: 100%;
+}
+
+.tituloGrupoA {
+    color: rgb(0, 0, 0);
+}
+
+.imgRoyal {
+    max-width: 45px;
+    max-height: 45px;
+    text-align: left;
+}
+
+.imgPgg {
+    max-height: 45px;
+    max-width: 45px;
+}
+
+.imgUol{
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.pontosA{
+    font-size: 30px;
+    width: 100%;
+    text-align: right;
+}
+
+.timesA{
+   font-size: 35px;
+}
+
+.numeroTimes {
+    font-size: 35px;
+}
+
+
+
