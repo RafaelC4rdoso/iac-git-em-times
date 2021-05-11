@@ -8,7 +8,10 @@
     width: 300px;
     height: 600px;
     overflow: auto;
-    background-color: orange;
+}
+
+#cronograma table {
+    width: 100%;
 }
 
 #cronograma table tr{
@@ -19,9 +22,14 @@
     padding: 10px 10px 40px 10px;
 }
 
-#cronograma table caption { 
+#cronograma table caption {
+    width: 100%; 
     padding: 50px;
-    background-color: orchid;
+    color: green;
+    background-image: url("imagens/papel-rasgado.png");
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    background-size: 100%;
 }
 
 #linha-verde div{
