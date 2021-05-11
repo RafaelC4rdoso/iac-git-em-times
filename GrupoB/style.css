@@ -1,0 +1,43 @@
+*{
+    color: white;
+    background-color: rgb(71, 71, 71);
+    margin: 0 auto
+}
+
+#grupoB{
+    width: 50%;
+    border: solid rgb(46, 58, 54);
+    
+}
+
+.nomeClube{
+    text-align: left;
+    width: 90%;
+    border-width: 1px;
+}
+
+table, td, th{
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse: collapse;
+    border-color: rgb(46, 58, 54);
+    padding: 12px 13px 12px 14px;
+    background: #11110f; 
+    
+}
+
+th{  
+    font-weight: 25px;
+    text-align: left;
+    font-weight: normal; 
+}
+
+td{
+    font-size: 18px;
+    text-align: left
+}
+h3{
+    font-size: 20px;
+    margin-left: 480px;
+    margin-top: 10px;
+    margin-bottom: 3px
+}
