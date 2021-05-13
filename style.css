@@ -43,7 +43,7 @@ body {
     padding: 40px 5px 30px 10px;
 }
 
-#cronograma table caption {
+#cronogram table caption {
     font-size: 15px;
     width: 100%; 
     padding: 15px 30px 30px 30px;
@@ -104,3 +104,43 @@ a, a:link, a:hover, a:visited{
     border-bottom: 1px solid white;
 }
 
+/* bryan */
+
+#tabela{
+    color: white;
+    width: 70%;
+    margin-left: 16%;
+    height: 60px;
+    padding: 0px;
+    border: 1px solid greenyellow;
+    border-collapse: collapse;
+    background-color: black;
+}
+
+#tabela th {
+    border-right: 1px solid greenyellow;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+}
+ 
+.fasegrupo{
+    color: black;
+    background-color: greenyellow;
+    width: 38%;
+}
+
+.aovivo{
+    font-size: 12px;
+}
+
+.seta{
+    float: right;
+    margin-right: 55%;
+    font-size: 17px ;
+}
+
+.breve{
+    font-size: 12px;
+    color: lightgray;
+}
