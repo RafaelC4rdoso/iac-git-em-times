@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("imagens/background.png");
+    background-repeat: round;
+    
+}
+
+.container {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+.container-table {
+    width: 60%;
+}
+
+#cronograma {
+    background-color: white;
+    border: 1px solid lightgreen;
+    width: 250px;
+    height: 750px;
+    overflow: auto;
+    margin-left: 0;
+}
+
+#cronograma img {
+    max-width: 25px;
+    min-width: 25px;
+}
+
+
+#cronograma table {
+    font-weight: bold;
+    width: 100%;
+}
+
+#cronograma table tr{
+    border-bottom: 1px solid grey;
+}
+
+#cronograma table td {
+    padding: 40px 5px 30px 10px;
+}
+
+#cronograma table caption {
+    font-size: 15px;
+    width: 100%; 
+    padding: 15px 30px 30px 30px;
+    color: rgb(31, 223, 31);
+    background-image: url("imagens/papel-rasgado.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#linha-verde div{
+    height: 3px;
+    width: 10px;
+    background-color: green;
+}
+
+/* larissa */
+
+a, a:link, a:hover, a:visited{
+    text-decoration: none;
+}
+
+.cabecalho{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #898366;
+}
+
+.listaMenu{
+    width: 100%;
+    float: left;
+    list-style: none;
+    padding: 0px 0px 20px 10px;
+
+}
+
+.listaMenu li{
+    padding: 20px;
+    float: left;
+}
+
+.listaMenu ul{
+    margin: 0px;
+    text-align: 0px;
+}
+
+.imgCabecalho {
+    margin-left: 100px;
+}
+
+.menu li a{
+    font-weight: bold;
+    color: rgb(157, 158, 74);
+}
+
+.menu ul li a:hover{
+    color: #fff;
+    transition: 0.05s;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+/* bryan */
+
+#tabela{
+    color: white;
+    width: 100%;
+
+    height: 60px;
+    padding: 0px;
+    border: 1px solid greenyellow;
+    border-collapse: collapse;
+    background-color: black;
+}
+
+#tabela th {
+    border-right: 1px solid greenyellow;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+}
+ 
+.fasegrupo{
+    color: black;
+    background-color: greenyellow;
+    width: 38%;
+}
+
+.aovivo{
+    font-size: 12px;
+}
+
+.seta{
+    float: right;
+    margin-right: 55%;
+    font-size: 17px ;
+}
+
+.breve{
+    font-size: 12px;
+    color: lightgray;
+}
+
+/* matheus */
+
+.table-a, .tabelaGrupoA td{
+    border-bottom: solid 1px white;
+    border-collapse: collapse;
+    color: white;
+    padding: 10px;
+    margin: 6px;
+}
+
+.tables h1 {
+    padding: 10px 20px 10px 0px;
+    color: white;
+}
+
+.tabelaGrupoA{
+    
+    background-color: rgb(32, 32, 32);
+    border: solid green;
+    font-size: 5px;
+}
+
+.tabelaGrupoA table tr { 
+    width: 100%;
+}
+
+.tituloGrupoA {
+    color: rgb(0, 0, 0);
+}
+
+.imgRoyal {
+    max-width: 25px;
+    max-height: 25px;
+    text-align: left;
+}
+
+.imgPgg {
+    max-height: 25px;
+    max-width: 25px;
+}
+
+.imgUol{
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.pontosA{
+    font-size: 15px;
+    width: 100%;
+    text-align: right;
+}
+
+.timesA{
+   font-size: 15px;
+}
+
+.numeroTimes {
+    font-size: 20px;
+}
+
+/* diogo */
+
+/*Custom CSS do Titulo do Grupo-C e Div que engloba a table*/
+
+#divGrupoC{
+    width: 60%;
+    border: 2px solid greenyellow;
+}
+
+#tituloGrupoC{
+    margin-bottom: 0px;
+    color: grey;
+    font-size:15px;
+}
+
+/*Fim das estilizações da Div e do titulo do Grupo-C*/
+
+/*Custom CSS da tabela do Grupo-C*/
+
+#tableGrupoC{
+    background-color: black;
+    opacity: 65%;
+    width: 100%;
+}
+
+#divGrupoC td{
+    border-collapse: collapse;
+    border-bottom:1px solid #e2e2e2;
+}
+
+.tdPosicaoGrupoC{
+    float: left;
+    font-size: 25px;
+    color: white;
+    width: 5%;
+    border-bottom: 1px solid #e2e2e2;
+    padding-left: 8px;
+}
+
+.tdImgTime{
+    width: 5%;
+    float: left;
+    padding-top:4px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.imgTime{
+    float: left;
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.tdNomeDoTime{
+    float:left;
+    width: 60%;
+    font-size: 25px;
+    color:white;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.tdPlacarGpC{
+    float: right;
+    color: white;
+    font-size: 25px;
+    width: 27%;
+    border-bottom: 1px solid #e2e2e2;
+    text-align: right;
+    padding-right:8px;
+}
