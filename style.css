@@ -6,9 +6,14 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("imagens/background.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-image: url("imagens/background.png");
+    background-repeat: round;
+    
+}
+
+.container {
+    width: 100%;
+    
 }
 
 #cronograma {
@@ -45,7 +50,6 @@ body {
     color: rgb(31, 223, 31);
     background-image: url("imagens/papel-rasgado.png");
     background-repeat: no-repeat;
-    background-position-y: 20%;
     background-size: 100%;
 }
 
@@ -54,3 +58,49 @@ body {
     width: 10px;
     background-color: green;
 }
+
+/* larissa */
+
+a, a:link, a:hover, a:visited{
+    text-decoration: none;
+}
+
+.cabecalho{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #898366;
+}
+
+.listaMenu{
+    width: 100%;
+    float: left;
+    list-style: none;
+    padding: 0px 0px 20px 10px;
+
+}
+
+.listaMenu li{
+    padding: 20px;
+    float: left;
+}
+
+.listaMenu ul{
+    margin: 0px;
+    text-align: 0px;
+}
+
+.imgCabecalho {
+    margin-left: 100px;
+}
+
+.menu li a{
+    font-weight: bold;
+    color: rgb(157, 158, 74);
+}
+
+.menu ul li a:hover{
+    color: #fff;
+    transition: 0.05s;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
