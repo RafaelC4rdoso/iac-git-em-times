@@ -156,12 +156,17 @@ a, a:link, a:hover, a:visited{
 
 /* matheus */
 
-#table-a, .tabelaGrupoA td{
+.table-a, .tabelaGrupoA td{
     border-bottom: solid 1px white;
     border-collapse: collapse;
     color: white;
     padding: 10px;
     margin: 6px;
+}
+
+.tables h1 {
+    padding: 10px 20px 10px 0px;
+    color: white;
 }
 
 .tabelaGrupoA{
