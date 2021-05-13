@@ -1,0 +1,44 @@
+.tudo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    color: white;
+    width: 70%;
+    margin-left: 16%;
+    height: 60px;
+    padding: 0px;
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+}
+
+table th{
+    border-right: 1px solid greenyellow;
+    background-color: black;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+}
+ 
+.fasegrupo{
+    background-color: greenyellow;
+    color: black;
+    width: 38%;
+}
+
+.aovivo{
+    color: black;
+    font-size: 12px;
+}
+
+.seta{
+    float: right;
+    margin-right: 55%;
+    font-size: 17px ;
+}
+
+.breve{
+    font-size: 12px;
+    color: lightgray;
+}
+
